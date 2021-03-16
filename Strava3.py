@@ -141,10 +141,6 @@ def main():
             
             # Loop through the lines and add up distances for Walk, Run and Ride
             for x in range(0,length):
-            #for name in data['name']:
-            #    printx['name']
-
-            #for x in data:
                 if re.search(search_term,data[x]["name"]) or re.search(search_term.lower(),data[x]["name"]):
 
                     #Check if Walk/Run/Ride and total up
