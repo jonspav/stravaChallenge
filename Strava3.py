@@ -43,7 +43,6 @@ def writeDataToFile(dWalk,dRun,dRide):
     file_name = 'myfile' + date + '.txt'
     print(file_name)
 
-    # SHOUL I USE A TRY BLOCK HERE???????
     # if file dosn't exist create - it will be created
     # if file name exists - over wright 
     file=open(file_name,"w")
